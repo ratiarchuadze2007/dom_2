@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Overpass;
+}
+
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: #131518;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 412px;
+    height: 416px;
+    background-color: #232A34;
+    border-radius: 15px;
+    padding: 32px;
+   
+    
+}
+
+
+
+.circle{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #262E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1{
+    color: #fff;
+    font-size: 28px; 
+    padding-top: 20px;
+}
+.title p{
+    color: #969FAD;
+    padding-top: 10px;
+}
+
+
+.buttons{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    background-color: #262E38;
+    color: #7C8798;
+    border: none;
+    font-size: 16px;
+}
+
+.submit{
+    padding-top: 30px;
+}
+.submit_button{
+    color: #FFF;
+    background-color: #FC7614;
+    width: 100%;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+}
+
+
+
+.card_2{
+    width: 412px;
+    height: 416px;
+    background-color: #232A34;
+    border-radius: 15px;
+    padding: 32px;
+    display: none;
+}
+.top_image{
+    display: flex;
+    justify-content: center;
+}
+
+.yourNumber{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.bg{
+    background-color: #262E38;
+    width: 193px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 32px;
+}
+.bg p {
+color: #FC7614;
+}
+.selectedNumber{
+    color: #FC7614;
+}
+.Card2Title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.Card2Title h1{
+    color: #FFF;
+}
+.Card2Title p {
+    color: #969FAD;
+    padding-top: 10px;
+}
